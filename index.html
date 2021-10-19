@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automarket</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"/>
+    <!-- BOOSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <div class="top-header py-4">
+      <div class="container">
+        <h1>Automarket</h1>
+      </div>
+    </div>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark bg-gradient">
+      <div class="container">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#Home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Contacto" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Automarket</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+    <!-- Home -->
+    <section id="Home">
+      <header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/4608905.jpg" class="d-block w-100" alt="imagen de oferta">
+            </div>
+            <div class="carousel-item">
+              <img src="img/5314353.jpg" class="d-block w-100" alt="imagen de oferta">
+            </div>
+            <div class="carousel-item">
+              <img src="img/5646795.jpg" class="d-block w-100" alt="imagen de oferta">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </header>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Promoción 1</h5>
+              <p class="card-text">50% de descuento con tarjetas bancarias</p>
+              <a href="#" class="btn btn-primary">Ir a la oferta</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Promoción 2</h5>
+              <p class="card-text">
+                70% de descuento en productos seleccionados
+              </p>
+              <a href="#" class="btn btn-primary">Ir a la oferta</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Descuento</h5>
+              <p class="card-text">2x1 llevando productos iguales</p>
+              <a href="#" class="btn btn-primary">Ir a la oferta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Contactos -->
+    <section class="bg-light py-5" id="Contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3>Contacto</h3>
+            <p>
+              Cargue sus datos en el siguiente formulario para ser contactado a
+              la brevedad
+            </p>
+            <form action="">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-user input-group-text"></i>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre y Apellido"
+                  aria-label="N"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-user input-group-text"></i>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Provincia"
+                  aria-label="N"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-envelope input-group-text"></i>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-pencil-alt input-group-text"></i>
+                </div>
+                <textarea
+                  name=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Texto de contacto"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                Send
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            <img src="img/logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container p-3">
+        <div class="row text-center text-white">
+          <div class="col ml-auto">
+            <p>Cocodrilo Alegre 123 - San Rafael, Mendoza</p><p>Tel:+549123123123</p><p>automarketcontact@automarket.com.ar</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BOOSTRAP JAVASCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Ejercicios javascript -->
+
+    <!-- Ejercicio 1 -->
+    <script src="Ejercicio1.js"></script>
+
+    <!-- Ejercicio 2 -->
+    <script src="Ejercicio2.js"></script>
+
+    <!-- Ejercicio 3 -->
+    <script src="Ejercicio3.js"></script>
+
+    <!-- Ejercicio 4 -->
+    <script src="Ejercicio4.js"></script>
+</html>
